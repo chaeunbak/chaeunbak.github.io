@@ -5,25 +5,108 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chae-Un Park | AI Researcher</title>
     <style>
-        body { font-family: Arial, sans-serif; margin: 40px; text-align: center; }
-        h1 { color: #333; }
-        p { font-size: 18px; color: #555; }
-        a { color: #0073e6; text-decoration: none; font-weight: bold; }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px auto;
+            max-width: 900px;
+            text-align: left;
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        p {
+            font-size: 18px;
+            color: #555;
+        }
+        a {
+            color: #0073e6;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .container {
+            padding: 20px;
+        }
+        .profile-pic {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+        }
+        .section {
+            margin-top: 30px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #ddd;
+        }
+        .projects {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .project-item {
+            width: 48%;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+        }
     </style>
 </head>
 <body>
-    <h1>Hi, I'm Chae-Un Park! 👋</h1>
-    <p>Master's student in AI at Hallym University</p>
-    <p>Interested in Natural Language Processing (NLP) & Computer Vision (CV)</p>
-    
-    <h2>🔗 Links</h2>
-    <p><a href="https://github.com/chaeunbak">GitHub</a> | <a href="mailto:pcw0900@naver.com">Email</a> | <a href="https://linkedin.com/in/your-profile">LinkedIn</a></p>
+    <div class="container">
+        <!-- 프로필 배경 이미지 (주석 처리됨) -->
+        <!-- <img src="background.jpg" width="100%" alt="Profile Background"> -->
 
-    <h2>📌 Projects</h2>
-    <p>- Research on AI & Deep Learning</p>
-    <p>- Computer Vision & NLP Applications</p>
+        <h1>박채운 (Chae-Un Park)</h1>
+        <h3>AI Researcher | Master's Student in AI at Hallym University</h3>
 
-    <h2>📬 Contact</h2>
-    <p>Email: pcw0900@naver.com</p>
+        <!-- 프로필 사진 (주석 처리됨) -->
+        <!-- <img src="profile.jpg" alt="Chae-Un Park" class="profile-pic"> -->
+
+        <p><strong>Interested in:</strong> Natural Language Processing (NLP), Computer Vision (CV)</p>
+        <p><strong>Stack:</strong> Python, PyTorch, TensorFlow, OpenCV</p>
+
+        <div class="section">
+            <h2>📌 Selected Projects</h2>
+            <div class="projects">
+                <div class="project-item">
+                    <h3>AI-based Medical Image Analysis</h3>
+                    <p>- Deep learning-based image segmentation for medical applications.</p>
+                    <p>- PyTorch, U-Net, Transformer models.</p>
+                </div>
+                <div class="project-item">
+                    <h3>Text Classification using NLP</h3>
+                    <p>- Built an NLP model for document classification using transformers.</p>
+                    <p>- Python, Hugging Face, BERT.</p>
+                </div>
+                <div class="project-item">
+                    <h3>Face Recognition System</h3>
+                    <p>- Implemented a deep learning model for facial recognition.</p>
+                    <p>- OpenCV, PyTorch, CNN models.</p>
+                </div>
+                <div class="project-item">
+                    <h3>Reinforcement Learning for Robotics</h3>
+                    <p>- Developed an RL-based navigation model for robots.</p>
+                    <p>- Gym, PyTorch, Stable-Baselines3.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>🎓 Education</h2>
+            <p><strong>Hallym University</strong>, Master's in AI (202X - Present)</p>
+            <p><strong>Hallym University</strong>, Bachelor's in Computer Science (201X - 202X)</p>
+        </div>
+
+        <div class="section">
+            <h2>🏆 Honors & Awards</h2>
+            <p>2023 - AI Research Excellence Award</p>
+            <p>2022 - Kaggle NLP Competition Silver Medal</p>
+        </div>
+
+        <div class="section">
+            <h2>📬 Contact</h2>
+            <p>Email: <a href="mailto:pcw0900@naver.com">pcw0900@naver.com</a></p>
+            <p>GitHub: <a href="https://github.com/chaeunbak">chaeunbak</a></p>
+            <p>LinkedIn: <a href="https://linkedin.com/in/your-profile">Your LinkedIn</a></p>
+        </div>
+    </div>
 </body>
 </html>
